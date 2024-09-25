@@ -1,4 +1,4 @@
-##### in this project, we compare OBSERVATIONAL DATA of red supergiants (RSGS) in different galaxies to STELLAR MODELS. Specifically, we perform RSG model population synthesis to compare the predicted nr of bright RSGs to the observed nr.
+##### in this project, we compare observational data of red supergiants (RSGS) in different galaxies to stellar models. Specifically, we perform RSG model population synthesis to compare the predicted nr of bright RSGs to the observed nr.
 
 ###### OBSERVATIONAL DATA
 We have the following sample of six galaxies with individually resolved stars, including RSGs. 
