@@ -8,7 +8,6 @@ from sklearn.preprocessing import StandardScaler
 
 # READ SMC TRAINING DATA
 d = pd.read_csv( '/kaggle/input/vi-data/smc_training_data.csv' )
-rsg_flag_ir_bool = d.rsg_flag_ir.astype( bool )
 
 # PREPROCESS DATA
 d = d.dropna( subset=['color','mabs'] )
