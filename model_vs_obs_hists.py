@@ -22,7 +22,7 @@ def pro_binning(var_list, nbins,xmin,xmax,weights):   # binning function
         center = (bins[:-1] + bins[1:]) / 2
         return hist, center, width
 
-gals = { 'n4395':{'Z':1,    'Zrep':'MW'},             # make a dictionary to get relevant metallicities Z
+gals = { 'n4395':{'Z':1,    'Zrep':'MW'},             # make a dictionary of GALAXIES to get relevant metallicities Z
          'LMC':  {'Z':0.5,  'Zrep':'LMC' },
          'n300': {'Z':0.4,  'Zrep':'LMC'  },
          'n5253':{'Z':0.33, 'Zrep':'SMC'},
