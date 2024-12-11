@@ -11,3 +11,6 @@ We obtain the interpolated BOOST stellar evolution tracks from http://galaxy.asu
 - convert_to_usable_data.py: converts BOOST data to a csv that is more convenient to use for us
 - condense_data.py: data are condensed because we do not need all columns and initial masses separated as densely as by 0.001 dex.
 
+######  OBSSERVATIONS vs MODEL comparison
+We calculate number of observed stars in the luminosity range 5.0<logL<5.4 and make a theoretical population of stars with the same number of stars in the range range 5.0<logL<5.4.
+- model_vs_obs_hists.py compares the luminosity distributions
