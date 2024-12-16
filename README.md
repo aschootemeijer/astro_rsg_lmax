@@ -14,3 +14,4 @@ We obtain the interpolated BOOST stellar evolution tracks from http://galaxy.asu
 ######  OBSSERVATIONS vs MODEL comparison
 We calculate number of observed stars in the luminosity range 5.0<logL<5.4 and make a theoretical population of stars with the same number of stars in the range range 5.0<logL<5.4.
 - model_vs_obs_hists.py compares the luminosity distributions
+- z_vs_brrsg.py compares the luminosity of the brighest star in the theory population to the observed population, and investigates how this depends on metallicity (Z).
