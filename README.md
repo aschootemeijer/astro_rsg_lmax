@@ -3,8 +3,10 @@
 ###### OBSERVATIONAL DATA
 We have the following sample of six galaxies with individually resolved stars, including RSGs. 
 NGC300 from Dalcanton+2009; NGC5352 and NGC4395 from Sabbi+2019; SMC and LMC from Davies+2018; IZw18 from Hirschauer+2024
-In NGC300, NGC5352, and NGC4395 we still need to identify the RSGs. We use a neural network to do this.
+In NGC300, NGC5352, and NGC4395 we still need to identify the RSGs. We use a neural network to do this. Also, as a test we compare the values we get for the luminosity of RSGs in the Small Magellanic Cloud (SMC) to those in earlier work by Davies+2018. We do this with the script compare_methods.py and compare_methods.R. The R script does the same thing as the python script.
 - neural_network.py: assign probability that a star is an RSG (trained on SMC data).
+- compare_methods.py: calculate luminosity using visible wavelength and IR data, and compare to earlier results of Davies+2018.
+- compare_methods.R: same as the python script, but is written from scratch in R as a test. It obtains identical results.
 
 ###### STELLAR MODELS:
 We obtain the interpolated BOOST stellar evolution tracks from http://galaxy.asu.cas.cz/pages/boost
